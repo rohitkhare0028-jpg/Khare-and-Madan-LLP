@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khare and Madan LLP</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            background: #fff;
+            color: #1A2A36;
+        }
+        header {
+            background: #fff;
+            text-align: center;
+            padding: 40px 20px 20px 20px;
+        }
+        .logo {
+            max-width: 170px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            margin: 10px 0 5px;
+        }
+        .location {
+            color: #Bfa14a;
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 12px;
+        }
+        nav {
+            margin: 25px 0 0 0;
+        }
+        nav a {
+            color: #1A2A36;
+            text-decoration: none;
+            font-weight: 700;
+            margin: 0 18px;
+            font-size: 1.06em;
+            transition: color .2s;
+        }
+        nav a:hover {
+            color: #bfa14a;
+        }
+        section {
+            padding: 50px 20px 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .services {
+            background: #f6f7fa;
+            border-left: 6px solid #bfa14a;
+        }
+        h2 {
+            color: #1A2A36;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+        .team-member {
+            flex: 1 1 230px;
+            background: #faf5ee;
+            border-left: 4px solid #1a2a36;
+            padding: 24px 18px;
+            margin-bottom: 18px;
+            border-radius: 3px;
+        }
+        .testimonial {
+            font-style: italic;
+            color: #4b4b4b;
+            border-left: 4px solid #bfa14a;
+            margin: 22px 0;
+            padding-left: 10px;
+        }
+        .contact-form {
+            max-width: 360px;
+            margin: auto;
+            padding: 18px;
+            border: 2px solid #1A2A36;
+            border-radius: 6px;
+            background: #f6f7fa;
+        }
+        .contact-form label {
+            font-size: 1em;
+            margin-top: 10px;
+            display: block;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            border: 1px solid #bfa14a;
+            border-radius: 2px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background: #1A2A36;
+            color: #fff;
+            border: none;
+            padding: 8px 18px;
+            font-size: 1em;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background .2s;
+        }
+        .contact-form button:hover {
+            background: #bfa14a;
+            color: #1a2a36;
+        }
+        footer {
+            text-align: center;
+            padding: 22px 0 14px 0;
+            font-size: .97em;
+            background: #1A2A36;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="KHARE-AND-MADAN-LLP.jpg" alt="Khare and Madan LLP Logo" class="logo">
+        <h1>KHARE AND MADAN LLP</h1>
+        <div class="location">DELHI | JABALPUR</div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Khare and Madan LLP is a distinguished law firm based in Delhi and Jabalpur, offering a wide spectrum of legal services with a commitment to integrity, expertise, and tailored solutions for our clients. Our mission is to provide result-oriented, ethical, and insightful legal counsel supported by decades of combined experience.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Corporate & Commercial Law</li>
+            <li>Civil & Criminal Litigation</li>
+            <li>Arbitration & Alternate Dispute Resolution</li>
+            <li>Real Estate & Property Law</li>
+            <li>Family & Succession Law</li>
+            <li>Regulatory Compliance & Legal Advisory</li>
+        </ul>
+    </section>
+    <section id="team">
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <strong>Adv. A. Khare</strong> <br>
+                Senior Partner <br>
+                <small>Specialization: Corporate Law, Litigation</small>
+            </div>
+            <div class="team-member">
+                <strong>Adv. R. Madan</strong> <br>
+                Senior Partner <br>
+                <small>Specialization: Arbitration, Property Law</small>
+            </div>
+            <!-- Add more members as needed -->
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial">
+            "Professional, prompt, and insightful legal advice. Highly recommended for complex matters!" <br>- S. Verma
+        </div>
+        <div class="testimonial">
+            "Resolved our property dispute efficiently with a personal touch." <br>- P. Singh
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <p style="text-align:center; margin-top: 20px; color:#1A2A36;">
+            <strong>Email:</strong> info@kharemadanllp.com<br>
+            <strong>Phone:</strong> +91-12345 67890<br>
+            <strong>Address (Delhi):</strong> 123, Example Road, Delhi<br>
+            <strong>Address (Jabalpur):</strong> 456, Example Avenue, Jabalpur
+        </p>
+    </section>
+    <footer>
+        &copy; 2025 Khare and Madan LLP | All Rights Reserved
+    </footer>
+</body>
+</html>
